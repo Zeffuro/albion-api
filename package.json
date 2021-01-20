@@ -1,6 +1,6 @@
 {
   "name": "albion-api-zeff",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Node Js client to interact with albion killboard API.",
   "main": "index.js",
   "scripts": {
