@@ -1,8 +1,8 @@
 const request = require("./request")
 
-module.exports = async (name) => {
+module.exports = async (guildId) => {
     const results = await request(
-      `search?q=${escape(name)}`
+      `guilds/${guildId}/data`
     )
     return results
 }

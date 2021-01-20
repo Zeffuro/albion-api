@@ -26,7 +26,12 @@ module.exports = (path) => {
             'end',
             function () {
               // console.log("RESPONSE ", data)
-              resolve(JSON.parse(data))
+              try{
+                resolve(JSON.parse(data))
+              }catch(err){
+                console.log(err)
+                reject()
+              }              
             }
           )
         }

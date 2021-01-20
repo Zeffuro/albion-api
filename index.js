@@ -1,7 +1,11 @@
 module.exports = {
     deaths : require("./deaths"),
+    event : require("./event"),
     events : require("./events"),
+    guild : require("./guild"),
+    guildData : require("./guilddata"),
     gvg : require("./gvg"),
+    kills : require("./kills"),
     pastGvg : require("./pastGvgs"),
     player : require("./player"),
     search : require("./search"),
@@ -12,5 +16,6 @@ module.exports = {
     topPveGuild: require('./topPveGuild'),
     topCraftingGuild: require('./topCraftingGuild'),
     topGatheringGuild: require('./topGatheringGuild'),
-    battles: require('./battles')
+    battles: require('./battles'),
+    battle: require('./battle')
 }
