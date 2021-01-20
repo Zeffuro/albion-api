@@ -1,4 +1,4 @@
-const request = require("node-albion-api/request")
+const request = require("./request")
 
 module.exports = async (toonId) => {
     const results = await request(

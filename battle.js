@@ -1,4 +1,4 @@
-const request = require("node-albion-api/request")
+const request = require("albion-api-zeff/request")
 
 module.exports = async (battleId) => {
     const results = await request(
